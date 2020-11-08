@@ -7,7 +7,7 @@ html {
   background-color: #ffffff;
 }
 
-body { //배경의 위치? (이게 캔버스같은데?)
+body { //배경의 위치
   width: 100px;
   height: 1000px;
   margin: auto;
@@ -37,8 +37,8 @@ body { //배경의 위치? (이게 캔버스같은데?)
   height: 100px; //텍스트상자
   margin: 0;
   padding: 0px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 101px;
+  padding-right: 101px;
   font-weight: bold;
   text-align: center;
   font-family: 'Nanum Gothic Coding', monospace;
@@ -48,7 +48,7 @@ body { //배경의 위치? (이게 캔버스같은데?)
 
 canvas {
   position: relative;
-  top: 500px;
+  top: 300px;
   margin: auto;
   padding: 0px;
   padding-top: 30px;
