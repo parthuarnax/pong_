@@ -48,7 +48,7 @@ body { //배경의 위치
 
 canvas {
   position: relative;
-  top: 300px;
+  top: 0px;
   margin: auto;
   padding: 0px;
   padding-top: 30px;
