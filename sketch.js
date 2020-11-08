@@ -39,22 +39,18 @@ function setup() {
 function draw() {
   if (!page.pause_bool) {
     background(0);
-    
     displayGame();
-    
     if (!page.game_bool) {
       players.pad1Ypos = 220;
       players.pad1Xpos = 80;
       players.pad2Ypos = 220;
       players.pad2Xpos = 800;
     }
-  
     page.scoreboard();
     page.main(page.main_bool);
     page.chara(page.chara_bool);
     page.winner(page.winner_bool);
   }
-
   pauseButton();
 }
 
@@ -94,11 +90,11 @@ class GamePage {
 
     this.main = function(bool) {      
       if (bool == true) {    
-        if(!theme1_sound.isPlaying()){
-          // end_sound.stop();
-          theme1_sound.play();
-          theme1_sound.loop();
-        }
+        // if(!theme1_sound.isPlaying()){
+        //   // end_sound.stop();
+        //   theme1_sound.play();
+        //   theme1_sound.loop();
+        // }
         this.playerScoreReset();       
         if (keyCode == 83) { // 's'tart pressed
           this.main_bool = false; // mainpage off
