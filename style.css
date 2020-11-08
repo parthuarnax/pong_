@@ -5,7 +5,3 @@ html, body {
 canvas {
   display: block;
 }
-
-.dot {
-  margin: 0 auto;
-}
