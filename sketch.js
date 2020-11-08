@@ -11,11 +11,11 @@ let y = false;
 // let ping_sound = [];
 // let death_sound = [];
 // let end_sound;
-//let theme1_sound;
+// let theme1_sound;
 // let theme2_sound;
 // let char_sound;
 
-function preload(){
+//function preload(){
    theme1_sound = loadSound('assets/theme.mp3');
 //   theme2_sound = loadSound('assets/theme2.mp3');
 //   for(let i = 0; i < 18; i++){
@@ -26,7 +26,7 @@ function preload(){
 //   }
 //   end_sound = loadSound('assets/End.mp3');
 //   char_sound = loadSound('assets/teris.mp3');
-}
+//}
 
 function setup() {
   createCanvas(900, 550);
