@@ -46,21 +46,13 @@ body { //배경의 위치? (이게 캔버스같은데?)
   display: block;
 }
 
-canvas { //p5의 이미지의 높낮이?
+canvas {
   position: relative;
   top: 500px;
-  margin: auto; //중앙에 놓기
+  margin: auto;
   padding: 0px;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #ffffff;
   display: block;
 }
-
-/* html, body {
-  margin: 0;
-  padding: 0;
-}
-canvas {
-  display: block;
-} */
