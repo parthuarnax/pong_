@@ -34,7 +34,7 @@ body { //배경의 위치
 
 #Story{ //스토리
   width: 600px; //텍스트상자
-  height: 100px; //텍스트상자
+  height: 60px; //텍스트상자
   margin: 0;
   padding: 0px;
   padding-left: 101px;
@@ -51,7 +51,7 @@ canvas {
   top: 0px;
   margin: auto;
   padding: 0px;
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 30px;
   background-color: #ffffff;
   display: block;
