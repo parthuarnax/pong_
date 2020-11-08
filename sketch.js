@@ -16,7 +16,7 @@ let y = false;
 // let char_sound;
 
 //function preload(){
-   theme1_sound = loadSound('assets/theme.mp3');
+//   theme1_sound = loadSound('assets/theme.mp3');
 //   theme2_sound = loadSound('assets/theme2.mp3');
 //   for(let i = 0; i < 18; i++){
 //     ping_sound[i] = loadSound('assets/'+i+'.mp3');
