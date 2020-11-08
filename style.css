@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
-// thx to yannenchemin
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 html {
   margin: 0;
@@ -7,7 +6,7 @@ html {
   background-color: #ffffff;
 }
 
-body { //배경의 위치
+body {
   width: 100px;
   height: 1000px;
   margin: auto;
@@ -15,7 +14,7 @@ body { //배경의 위치
   background-color: #ffffff;
 }
 
-#Title { //타이틀 위치
+#Title {
   width: 600px;
   height: 200px;
   margin: 100;
@@ -27,21 +26,21 @@ body { //배경의 위치
   text-align: center;
   color: #151515;
   background-color: #ffffff;
-  font-family: 'Nanum Gothic Coding', monospace;
+  font-family: 'Nanum Gothic', sans-serif;
 
   display: block;
 }
 
-#Story{ //스토리
-  width: 600px; //텍스트상자
-  height: 60px; //텍스트상자
+#Story{
+  width: 600px;
+  height: 60px; 
   margin: 0;
   padding: 0px;
   padding-left: 101px;
   padding-right: 101px;
   font-weight: bold;
   text-align: center;
-  font-family: 'Nanum Gothic Coding', monospace;
+  font-family: 'Nanum Gothic', sans-serif;
 
   display: block;
 }
