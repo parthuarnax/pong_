@@ -1,3 +1,4 @@
+  
 // available keys must remain in a global variable.
 // sigle alphabet variable = key
 // if ( a ) means ""'a' pressed?""
