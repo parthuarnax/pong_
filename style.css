@@ -6,15 +6,15 @@ html {
   background-color: #ffffff;
 }
 
-body {
-  width: 600px;
+body { //배경의 위치
+  width: 100px;
   height: 1000px;
   margin: auto;
   padding: 0px;
   background-color: #ffffff;
 }
 
-#Title {
+#Title { //타이틀 위치
   width: 600px;
   height: 200px;
   margin: 100;
@@ -31,9 +31,9 @@ body {
   display: block;
 }
 
-#Story{
-  width: 600px;
-  height: 60px; 
+#Story{ //스토리
+  width: 600px; //텍스트상자
+  height: 100px; //텍스트상자
   margin: 0;
   padding: 0px;
   padding-left: 101px;
@@ -50,8 +50,8 @@ canvas {
   top: 0px;
   margin: auto;
   padding: 0px;
-  padding-top: 0px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #ffffff;
   display: block;
 }
