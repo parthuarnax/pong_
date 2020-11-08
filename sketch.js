@@ -630,18 +630,18 @@ class Ball {
         this.bounceAcc();
         this.vel.x *= -1;
         this.pos.x = players.pad1Xpos + players.padThick + this.ballHalf;
-        this.rand_18_pick = function(){
-//          ping_sound[int(random(0, 18))].play();
-        }
+//         this.rand_18_pick = function(){
+// //          ping_sound[int(random(0, 18))].play();
+//         }
       }
       // touch paddle 2
       else if (this.pos.y >= players.pad2Ypos && this.pos.y <= players.pad2Ypos + players.padLen && this.pos.x >= players.pad2Xpos - this.ballHalf) {
         this.bounceAcc();
         this.vel.x *= -1;
         this.pos.x = players.pad2Xpos - this.ballHalf;
-        this.rand_18_pick = function(){
-//          ping_sound[int(random(0, 18))].play();
-        }
+//         this.rand_18_pick = function(){
+// //          ping_sound[int(random(0, 18))].play();
+//         }
       }
     }
     
